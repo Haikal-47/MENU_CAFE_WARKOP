@@ -1,10 +1,10 @@
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
-import authRouter from './routes/auth';
-import menuRouter from './routes/menu';
-import ordersRouter from './routes/orders';
-import adminRouter from './routes/admin';
+import authRouter from './routes/auth.ts';
+import menuRouter from './routes/menu.ts';
+import ordersRouter from './routes/orders.ts';
+import adminRouter from './routes/admin.ts';
 
 dotenv.config();
 
